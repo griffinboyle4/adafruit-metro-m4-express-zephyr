@@ -1,8 +1,0 @@
-# Adafruit Metro M4 Express board configuration
-
-# Copyright (c) 2022 Frank Dischner <frank.dischner@gmail.com>
-# SPDX-License-Identifier: Apache-2.0
-
-config BOARD_ADAFRUIT_METRO_M4_EXPRESS
-	bool "Adafruit Metro M4 Express"
-	depends on SOC_PART_NUMBER_SAMD51J19A
